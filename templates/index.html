@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+	    color = white;
+            padding: 20px;
+            text-align: center; /* Center align text */
+        }
+        img {
+            display: block; /* Make the image a block element */
+            margin: 0 auto; /* Center align the image horizontally */
+            max-width: 100%; /* Ensure the image does not exceed the width of its container */
+            height: auto; /* Preserve the aspect ratio of the image */
+        }
+	h1, p {
+	    color = white;
+	}
+    </style>
+</head>
+<body>
+    <h1>Welcome to the patient monitoring system.</h1>
+    <img src="{{ url_for('static', filename = 'Index.png')}}" alt="Index Image">
+</body>
+</html>
