@@ -1,0 +1,5 @@
+```txt
+RPi.GPIO
+flask
+urllib3
+picamera
